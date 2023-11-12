@@ -1,0 +1,10 @@
+#let try out some if statement
+
+age = int(input("how old are you please?:" ))
+if age == 100:
+    print("Hello Grandpa, lol, you`re getting old")
+elif age < 0:
+    print("Yooo, What the hell!!!, yo`re not even born yet, get the hell back into you@re mama`s WOMB!!")
+elif age > 40:
+    print("Hope you are living a life you are proud of, if yes keep the good work up, if not then you better change!!")
+    
