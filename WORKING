@@ -1,10 +1,24 @@
 #let try out some if statement
 
-age = int(input("how old are you please?:" ))
-if age == 100:
-    print("Hello Grandpa, lol, you`re getting old")
-elif age < 0:
-    print("Yooo, What the hell!!!, yo`re not even born yet, get the hell back into you@re mama`s WOMB!!")
-elif age > 40:
-    print("Hope you are living a life you are proud of, if yes keep the good work up, if not then you better change!!")
-    
+#age = int(input("how old are you please?:" ))
+#if age == 100:
+#    print("Hello Grandpa, lol, you`re getting old")
+#elif age < 0:
+#    print("Yooo, What the hell!!!, yo`re not even born yet, get the hell back into you@re mama`s WOMB!!")
+#elif age > 40:
+#    print("Hope you are living a life you are proud of, if yes keep the good work up, if not then you better change!!")   
+
+#timer
+#import time
+#for seconds in range(10,-1,-1):
+#    print(seconds)
+#    time.sleep(1)
+#print("wake up!!!")
+
+pay = int(input("how much are you paid monthly?: "))
+if pay <= 1000:
+    print("change your job ASAP!!")
+elif pay == 1000:
+    print("I still think you should change your job, but maybe not too ASAP")
+elif pay >= 1000:
+    print("i guess you are lucky and greatful than!")
